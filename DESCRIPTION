@@ -10,5 +10,6 @@ LazyData: true
 Suggests: covr,
     testthat
 Imports: dplyr,
-    rlang
+    rlang,
+    forcats
 RoxygenNote: 6.0.1
