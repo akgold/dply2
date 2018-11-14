@@ -1,5 +1,8 @@
 #' Return rows with matching conditions and print diagnostics
 #'
+#' At this point, `filter2` only works on data.frame objects, rather than the
+#' full set of `dplyr::filter`-able objects.
+#'
 #' @inheritParams dplyr::filter
 #' @param .verbose print diagnostics? Defaults to TRUE
 #'

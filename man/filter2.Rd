@@ -26,7 +26,8 @@ these concepts.}
 a data frame
 }
 \description{
-Return rows with matching conditions and print diagnostics
+At this point, `filter2` only works on data.frame objects, rather than the
+full set of `dplyr::filter`-able objects.
 }
 \examples{
 filter2(dplyr::starwars, gender == "female", height < 170)
